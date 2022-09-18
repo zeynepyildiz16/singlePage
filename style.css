@@ -1,0 +1,272 @@
+/*Sidebar Menü */
+
+.sidenav {
+    height: 100%;
+    /*Tam yükseklik: 'otomatik' yükseklik istiyorsanız bunu kaldırın*/
+    width: 300px;
+    /* Kenar çubuğunun genişliğini ayarlama */
+    position: fixed;
+    /* Sabit Kenar Çubuğu (kaydırmada, yerinde kal) */
+    z-index: 1;
+    /* Üst Katmanda kalmak */
+    top: 0;
+    /* En üstten menü oluştur */
+    left: 0;
+    /* Soldan menü oluştur */
+    background-color: #111;
+    /* Menü siyah renk olsun */
+    overflow-x: hidden;
+    /* Yatay kaydırmayı devre dışı bırak */
+    padding-top: 20px;
+}
+
+/* Gezinme menu linkleri */
+
+.sidenav a {
+    padding: 30px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+/* Gezinme bağlantılarının üzerine geldiğinizde renklerini değiştirin */
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Stil sayfasi iceriği */
+
+.main {
+    margin-left: 200px;
+    padding: 0px 10px;
+}
+
+/* Yüksekliğin 450 pikselden az olduğu daha küçük ekranlarda 
+  kenar çubuğunun stilini değiştirin 
+  (daha az dolgu ve daha küçük yazı tipi boyutu) */
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+.birinci {
+    position: absolute;
+    left: 620px;
+    top: 250px;
+}
+
+.yazi {
+    position: absolute;
+    top: 800px;
+    font-size: 23px;
+    left: 320px;
+}
+
+.text {
+    font-size: 23px;
+    position: absolute;
+    left: 320px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.ikinci {
+    position: absolute;
+    left: 620px;
+    top: 950px;
+}
+
+.textiki {
+    font-size: 23px;
+    position: absolute;
+    left: 320px;
+    top: 1450px;
+}
+
+.ücüncü {
+    position: absolute;
+    left: 620px;
+    top: 1650px;
+}
+
+.hesapbilgileri {
+    position: absolute;
+    top: 2150px;
+    left: 900px;
+}
+
+.textücüncü {
+    font-size: 23px;
+    position: absolute;
+    left: 320px;
+    top: 2220px;
+
+}
+
+.kullanicibilgileri {
+    position: absolute;
+    left: 320px;
+    top: 2280px;
+    color: #666;
+}
+
+.kullanicibilgileriiki {
+    position: absolute;
+    left: 320px;
+    top: 2340px;
+    font-size: 23px;
+}
+
+.sunucubilgileri {
+    position: absolute;
+    left: 320px;
+    top: 2400px;
+    color: #666;
+}
+
+.sunucubilgileriki {
+    position: absolute;
+    left: 320px;
+    top: 2460px;
+    font-size: 23px;
+}
+
+.oturumacmabilgileribir {
+    position: absolute;
+    left: 320px;
+    top: 2565px;
+    color: #666;
+}
+
+.oturumacmabilgileriki {
+    position: absolute;
+    left: 320px;
+    top: 2620px;
+    font-size: 23px;
+}
+
+.gelismisayarlar {
+    position: absolute;
+    top: 2695px;
+    left: 890px;
+}
+
+.gelismisayarlariki {
+    position: absolute;
+    left: 320px;
+    top: 2780px;
+    font-size: 23px;
+}
+
+.dördüncü {
+    position: absolute;
+    left: 620px;
+    top: 2890px;
+
+}
+
+.gelismisayarlardevam {
+    position: absolute;
+    left: 320px;
+    top: 3390px;
+    font-size: 23px;
+
+}
+
+.besinci {
+    position: absolute;
+    left: 620px;
+    top: 3490px;
+}
+
+.gelismisayarlardevamke {
+    position: absolute;
+    left: 320px;
+    top: 3975px;
+    font-size: 23px;
+}
+
+.altinci {
+    position: absolute;
+    left: 620px;
+    top: 4100px;
+}
+
+.gelismisayarlardevamke2 {
+    position: absolute;
+    left: 320px;
+    top: 4600px;
+    font-size: 23px;
+}
+
+.hesaptesti {
+    position: absolute;
+    top: 4700px;
+    left: 890px;
+
+}
+
+.hesaptestiiki {
+    position: absolute;
+    left: 320px;
+    top: 4760px;
+    font-size: 23px;
+
+}
+
+.yedinci {
+    position: absolute;
+    left: 620px;
+    top: 4840px;
+
+}
+
+.hesaptestiüc {
+    position: absolute;
+    left: 320px;
+    top: 5325px;
+    font-size: 23px;
+}
+
+.sekizinci {
+    position: absolute;
+    left: 620px;
+    top: 5400px;
+}
+
+.hesaptestidört {
+    position: absolute;
+    left: 320px;
+    top: 5900px;
+    font-size: 23px;
+}
+
+.sonuc {
+    position: absolute;
+    top: 5980px;
+    left: 890px;
+
+}
+
+.sonuciki {
+    position: absolute;
+    left: 320px;
+    top: 6050px;
+    font-size: 23px;
+}
+
+.dokuzuncu {
+    position: absolute;
+    left: 620px;
+    top: 6200px;
+}
